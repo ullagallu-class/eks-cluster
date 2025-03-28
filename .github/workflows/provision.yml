@@ -1,1 +1,13 @@
 name: Create EKS cluster
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run a script
+        run: echo "Creating infrastructure..."
