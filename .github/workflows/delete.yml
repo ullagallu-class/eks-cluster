@@ -1,5 +1,0 @@
-name: Delete EKS
-
-
-on:
-  workflow_dispatch:
