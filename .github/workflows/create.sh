@@ -1,4 +1,4 @@
-name: Terraform Kubeadm Cluster Creation
+name: EKS Cluster Creation
 
 
 on:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   terraform:
-    name: Terraform Apply
+    name: Setup Runner
     runs-on: ubuntu-latest
 
     steps:
