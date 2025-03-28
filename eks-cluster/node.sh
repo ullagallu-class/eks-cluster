@@ -10,7 +10,7 @@ NODES_MIN=1
 NODES_MAX=1
 NODE_VOLUME_SIZE=20
 SSH_PUBLIC_KEY="siva"
-PROFILE="eks-siva.bapatlas.site"
+PROFILE="eks"
 LOG_FILE="/tmp/eks_nodegroup_$(date +%Y-%m-%d_%H-%M-%S).log"
 
 # Function to calculate elapsed time

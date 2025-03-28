@@ -4,7 +4,7 @@
 CLUSTER_NAME="ullagallu-konkas-tech"
 REGION="ap-south-1"
 ZONES="ap-south-1a,ap-south-1b"
-PROFILE="eks-siva.bapatlas.site"
+PROFILE="eks"
 LOG_FILE="/tmp/eks_cluster_$(date +%Y-%m-%d_%H-%M-%S).log"
 
 # Function to calculate elapsed time

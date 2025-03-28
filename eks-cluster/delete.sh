@@ -2,7 +2,7 @@
 
 # Variables
 CLUSTER_NAME="ullagallu-konkas-tech"
-PROFILE="eks-siva.bapatlas.site"
+PROFILE="eks"
 
 # Function to calculate elapsed time
 elapsed_time() {
